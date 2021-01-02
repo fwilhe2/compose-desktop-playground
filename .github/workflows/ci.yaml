@@ -20,3 +20,7 @@ jobs:
         shell: bash
       - run: find build
         shell: bash
+
+      - uses: actions/upload-artifact@v2
+        with:
+          path: build/compose/binaries/main/**/*untitled2-1.0.*
